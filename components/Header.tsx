@@ -38,7 +38,7 @@ const Header = () => {
               height={100}
               alt="Logo Laduny Store"
             />
-            <p className="text-lg font-bold">Laduny Computer</p>
+            <p className="text-lg font-bold">TICKET ALIEF ADMIN</p>
           </div>
         </Link>
 
@@ -85,7 +85,7 @@ const Header = () => {
                   User
                 </Link>
               </li>
-              <li className="px-4 py-1 border broder-white rounded">
+              {/* <li className="px-4 py-1 border broder-white rounded">
                 <Link
                   href="/laduny-auth/signin"
                   className={`transition hover:text-gray-600`}
@@ -93,7 +93,7 @@ const Header = () => {
                   {" "}
                   Login
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </nav>
         </div>
